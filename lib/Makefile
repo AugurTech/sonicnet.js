@@ -1,2 +1,2 @@
 default:
-	browserify main.js -o build/sonicnet.js
+	browserify main.js --standalone Sonicnet > build/sonicnet.js
